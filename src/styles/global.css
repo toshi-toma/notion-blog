@@ -356,21 +356,3 @@ code {
 .dotted {
   border-bottom: 1px dashed black;
 }
-
-footer {
-  padding: 2em 0;
-  text-align: center;
-}
-
-footer img {
-  display: block;
-  margin: 0.5rem auto;
-}
-
-footer span:nth-child(3) {
-  color: #777777;
-}
-
-footer span:nth-child(3) a {
-  color: inherit;
-}
