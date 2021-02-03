@@ -23,6 +23,7 @@ export default ({ title = '' }) => {
         <meta name="twitter:site" content="@toshi__toma" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
+        <link rel="shortcut icon" href="/avatar-circle.png" />
       </Head>
       <ul>
         {navItems.map(({ label, page }) => (

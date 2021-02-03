@@ -8,6 +8,7 @@ export default () => (
     <div className={sharedStyles.layout}>
       <h1>toshi-toma.com</h1>
       <h2>👨‍💻 + 🍅 + 🍊</h2>
+      <img src="/avatar-circle.png" width="240px" height="240px" />
       <Accounts />
     </div>
   </>
