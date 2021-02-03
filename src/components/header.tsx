@@ -11,13 +11,13 @@ const navItems: { label: string; page?: string }[] = [
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
 
-export default ({ titlePre = '' }) => {
+export default ({ title = '' }) => {
   const { pathname } = useRouter()
 
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} My Notion Blog</title>
+        <title>{title ? `${title} | toshi-toma.com` : ''}</title>
         <meta
           name="description"
           content="An example Next.js site using Notion for the blog"

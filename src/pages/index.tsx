@@ -4,7 +4,7 @@ import sharedStyles from '../styles/shared.module.css'
 
 export default () => (
   <>
-    <Header titlePre="Home" />
+    <Header title="Home" />
     <div className={sharedStyles.layout}>
       <h1>toshi-toma.com</h1>
       <h2>👨‍💻 + 🍅 + 🍊</h2>
