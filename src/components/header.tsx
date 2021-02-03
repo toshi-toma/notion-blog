@@ -17,13 +17,10 @@ export default ({ title = '' }) => {
     <header className={styles.header}>
       <Head>
         <title>{title ? `${title} | toshi-toma.com` : ''}</title>
-        <meta
-          name="description"
-          content="An example Next.js site using Notion for the blog"
-        />
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="description" content="toshi-toma site" />
+        <meta name="og:title" content={title} />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:site" content="@toshi__toma" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
