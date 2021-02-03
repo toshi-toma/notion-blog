@@ -198,12 +198,20 @@ pre.dark[class*='language-'] {
   align-items: center;
 }
 
-.accounts {
-  display: flex;
-  flex-wrap: wrap;
+.accounts-container {
   margin: 4rem auto;
   width: 920px;
   max-width: calc(100vw - var(--gap-double));
+}
+
+.accounts-header {
+  text-align: center;
+}
+
+.accounts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 0;
 }
 
 .feature {
