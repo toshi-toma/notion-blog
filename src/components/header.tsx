@@ -5,7 +5,7 @@ import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string }[] = [
   { label: 'Home', page: '/' },
-  { label: 'Memo', page: '/memo' },
+  { label: 'Blog', page: '/blog' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'

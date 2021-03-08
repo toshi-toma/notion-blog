@@ -5,7 +5,7 @@ const accounts = [
   },
   {
     text: 'Blog',
-    link: '/memo',
+    link: '/blog',
   },
   {
     text: 'はてなブログ',
